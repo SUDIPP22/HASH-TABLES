@@ -29,5 +29,4 @@ public class MyHashMapTest {
         System.out.println(myHashMap);
         Assertions.assertEquals(2, frequency);
     }
-
 }

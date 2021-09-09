@@ -3,7 +3,7 @@ package com.bridgelabz;
 /**
  * Purpose : To create methods for implementing test cases
  * @param <K> This is the first parameter to store the key
- * @param <V>  This is the first parameter to store the value
+ * @param <V>  This is the second parameter to store the value
  */
 public class MyHashMap<K, V> {
     MyLinkedList<K> myLinkedList;
@@ -25,7 +25,7 @@ public class MyHashMap<K, V> {
     /**
      * This method is created to add the key and value to hash table from linked list
      * @param key This is the first parameter to this method for storing the key
-     * @param value This is the first parameter to this method for storing the value
+     * @param value This is the second parameter to this method for storing the value
      */
     public void add(K key, V value) {
         MyMapNode<K, V> myMapNode = (MyMapNode<K, V>) this.myLinkedList.search(key);
